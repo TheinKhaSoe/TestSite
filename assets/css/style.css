@@ -1687,7 +1687,6 @@ hr {
         transform: rotate(130deg);
         opacity: 0;
         position: absolute;
-        left:5px;
     }
 }
 #back-top .wrapper .arrows-container .arrow-one {
