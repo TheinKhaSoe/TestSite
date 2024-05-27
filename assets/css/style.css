@@ -1667,7 +1667,8 @@ hr {
     -ms-transform: rotate(130deg);
     transform: rotate(130deg);
     opacity: 0;
-    position: fixed
+    position: fixed;
+    background-color: red;
 }
 
 #back-top .wrapper .arrows-container .arrow-one {
