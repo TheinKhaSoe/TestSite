@@ -1680,7 +1680,6 @@ hr {
     }
     
     #back-top .wrapper .arrows-container .arrow {
-        right: 8px;
         box-shadow: 2px -2px #fff inset;
         transform: rotate(130deg);
         -webkit-transform: rotate(130deg);
