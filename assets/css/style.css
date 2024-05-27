@@ -1651,7 +1651,7 @@ hr {
 }
 
 #back-top .wrapper .arrows-container {
-    position: fixed;
+    position: absolute;
     text-align: center;
     bottom: -5px;
     margin: 0 auto;
@@ -1660,15 +1660,14 @@ hr {
 }
 
 #back-top .wrapper .arrows-container .arrow {
-    padding-right:5px; padding-bottom:10%;
+    padding: 8px;
     box-shadow: 2px -2px #fff inset;
     transform: rotate(130deg);
     -webkit-transform: rotate(130deg);
     -ms-transform: rotate(130deg);
     transform: rotate(130deg);
     opacity: 0;
-    position: fixed;
-    background-color: red;
+    position: absolute
 }
 
 #back-top .wrapper .arrows-container .arrow-one {
@@ -3656,13 +3655,23 @@ hr {
     /*background-image: url(../img/logo/intro-img.png);
     background-size: cover;*/
     max-width: 80%;
+    /* height: 100%; */
     padding-bottom:10%;
+}
+
+.bg-center{
+    display: flex;
+    justify-content: center;
 }
 @media only screen and (min-width:540px) and (max-width:600px){
     .slider-bg-1 {
         max-width: 65%;
         /* //height: 100%; */
         padding-bottom:15%;
+        text-align:center;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
     }
 }
 
