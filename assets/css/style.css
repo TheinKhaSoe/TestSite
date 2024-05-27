@@ -11,7 +11,11 @@
 
 .logo .logo-img{
     height: 45px;
-    width: -webkit-fill-available;
+    width: -moz-available;
+}
+.logo .logo-img{
+    height: 45px;
+    width: fill-available;
 }
 
 
